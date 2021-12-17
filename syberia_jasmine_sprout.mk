@@ -24,6 +24,6 @@ BUILD_FINGERPRINT := "google/redfin/redfin:12/SP1A.210812.015/7679548:user/relea
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := xperience_jasmine_sprout
+PRODUCT_NAME := syberia_jasmine_sprout
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := Mi A2
