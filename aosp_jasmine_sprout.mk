@@ -10,6 +10,11 @@ $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 # Inherit xperience product configuration
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# PixelExtended stuff
+PEX_BUILD_TYE := UNOFFICIAL
+PEX_MAINTAINER := Vikraman
+TARGET_GAPPS_ARCH := arm64
+
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -27,3 +32,5 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_NAME := aosp_jasmine_sprout
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := Mi A2
+
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
