@@ -8,7 +8,7 @@
 $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 
 # Inherit xperience product configuration
-$(call inherit-product, vendor/syberia/common.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
